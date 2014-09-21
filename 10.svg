@@ -1,0 +1,11 @@
+<svg version="1.1" width="65" height="64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <radialGradient id="grad_1" cx="0.5138" cy="0.5294" r="0.68822">
+      <stop offset="0" stop-color="#003FFF" stop-opacity="1"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+  <image id="costume1" width="65" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABACAYAAABFqxrgAAABzElEQVR42u2c0ZKDIAxFZeY+9P+/tm/sdHc6ttsoSQhC0vBclZw5F0Wh2C5rtyr7/b1c1TOsU3Tr+HFQsFbh3HPbAsFVxdftLjpj2W6M69nAwKjipUW3jqeh2MCANYDe4ltQjmHoQWD14vkw9FagF8BVxctgyEDAI4D/fegFAQ2AFYpvW8EHAe8Azq3ggUAUAD0gEAmAFgQkmfPU6AFTBGHkHGBWO7YBkWKgjQWixUATC8SPQTsWiGwB1wZ8lwW0DYhuAccGbNmeEPYoRLSAtmGPRJqQEBLCK4TvGA/OxoU0IeOQEBJCQkgICSEhJIQhEOqC72BKSRM6THjMqf/mD49navH8oZT5VQisfH+7lO8TMg4JgYbQOS44adR4YGNCrTHjENEG5heoPRJubo3qxvwWGckG4VdpoQ0BLGgOjBFs4CzZAU1qt8EziE8A7OU6UWPRuXrNow3clWsNCH5jwY0B0wR/IKQAmHHwA0IDQDB3+ATxO21YBAadf/Ol/vQdYwUregEoZpE0iBlWHI/+w7f/vF5kDgzL4g3eJ9APVKNgnN/3p20JPLaC6rTt5lCb4o0gtGFonuCuKt4YAtU567mHmw3jZ51e968DfgARINcKjFJITAAAAC10RVh0U29mdHdhcmUAYnkuYmxvb2RkeS5jcnlwdG8uaW1hZ2UuUE5HMjRFbmNvZGVyqAZ/7gAAAABJRU5ErkJggg=="/>
+  <path id="ID0.5647532395087183" fill="url(#grad_1)" stroke="#003FFF" stroke-width="2" d="M 306 140 C 315.656 140 324.406 143.698 330.742 149.672 C 337.078 155.646 341 163.896 341 173 C 341 182.104 337.078 190.354 330.742 196.328 C 324.406 202.302 315.656 206 306 206 C 296.344 206 287.594 202.302 281.258 196.328 C 274.922 190.354 271 182.104 271 173 C 271 163.896 274.922 155.646 281.258 149.672 C 287.594 143.698 296.344 140 306 140 Z " transform="matrix(0.875, 0, 0, 0.875, -235.25, -119.7)"/>
+</svg>

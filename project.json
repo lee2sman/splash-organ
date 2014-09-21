@@ -1,0 +1,458 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 6,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "background1",
+			"baseLayerID": 15,
+			"baseLayerMD5": "b61b1077b0ea1931abee9dbbfa7903ff.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "title",
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "c27300871525a8e549661e40d8671d47.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 108,
+			"scratchY": -62,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 11,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "text",
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "c27300871525a8e549661e40d8671d47.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 112,
+			"scratchY": -103,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 12,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Sprite1",
+			"scripts": [[33, 21, [["whenGreenFlag"], ["show"], ["setGraphicEffect:to:", "ghost", 10]]],
+				[37, 135, [["whenClicked"], ["hide"]]]],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "c27300871525a8e549661e40d8671d47.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 0,
+			"scratchY": 0,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 13,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "up arrow",
+			"scripts": [[47, 59, [["whenKeyPressed", "up arrow"], ["broadcast:", "up"]]],
+				[49,
+					152,
+					[["whenIReceive", "up"],
+						["setGraphicEffect:to:", "color", 75],
+						["setVolumeTo:", 30],
+						["playSound:", ""],
+						["setGraphicEffect:to:", "color", 0]]]],
+			"sounds": [{
+					"soundName": "Wave",
+					"soundID": 0,
+					"md5": "69c91bcef63c8ba61069b3c78ce114a9.wav",
+					"sampleCount": 308736,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 2,
+					"baseLayerMD5": "786fd4893eb4d9575259766d59123652.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": -70,
+					"rotationCenterY": 88
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -243,
+			"scratchY": -136,
+			"scale": 0.69,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "hi-hat",
+			"scripts": [[20,
+					20,
+					[["whenKeyPressed", "left arrow"],
+						["doRepeat", 25, [["changeSizeBy:", 10], ["doRepeat", 10, [["changeSizeBy:", -1]]]]]]]],
+			"costumes": [{
+					"costumeName": "gong5",
+					"baseLayerID": 3,
+					"baseLayerMD5": "2b7e69a579b1209ac7d956583229f583.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 52,
+					"rotationCenterY": 104
+				},
+				{
+					"costumeName": "gonghand",
+					"baseLayerID": 4,
+					"baseLayerMD5": "1edf67772d066168c749cf4051aaea93.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 100,
+					"rotationCenterY": 300
+				}],
+			"currentCostumeIndex": 1,
+			"scratchX": -93,
+			"scratchY": 57,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 8,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "bass drum",
+			"scripts": [[20,
+					20,
+					[["whenKeyPressed", "down arrow"],
+						["doRepeat", 8, [["changeSizeBy:", 10], ["doRepeat", 10, [["changeSizeBy:", -1]]]]]]]],
+			"costumes": [{
+					"costumeName": "gong6",
+					"baseLayerID": 5,
+					"baseLayerMD5": "27c6b49cef49d3f6b1d109c514c456e1.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 80,
+					"rotationCenterY": 80
+				},
+				{
+					"costumeName": "waterpot",
+					"baseLayerID": 6,
+					"baseLayerMD5": "62a281a3f2a46337496a0aa2b1721970.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 100,
+					"rotationCenterY": 300
+				}],
+			"currentCostumeIndex": 1,
+			"scratchX": 6,
+			"scratchY": 57,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 4,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "cowbell",
+			"scripts": [[20,
+					20,
+					[["whenKeyPressed", "space"],
+						["doRepeat", 65, [["changeSizeBy:", 10], ["doRepeat", 10, [["changeSizeBy:", -1]]]]]]]],
+			"sounds": [{
+					"soundName": "cowbell",
+					"soundID": 1,
+					"md5": "767e7b0538723da2a20ec2d9fe7fb4db.wav",
+					"sampleCount": 26472,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "stock-vector-cow",
+					"baseLayerID": 7,
+					"baseLayerMD5": "f1226db9c96b7a52e7b22b03bddb9454.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 54,
+					"rotationCenterY": 56
+				},
+				{
+					"costumeName": "gongwuhantank",
+					"baseLayerID": 8,
+					"baseLayerMD5": "ecbe4c5c413419008e7139076795adb9.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 100,
+					"rotationCenterY": 300
+				}],
+			"currentCostumeIndex": 1,
+			"scratchX": 205,
+			"scratchY": 57,
+			"scale": 1.050000000232831,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 10,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "snare drum",
+			"scripts": [[20,
+					20,
+					[["whenKeyPressed", "right arrow"],
+						["doRepeat", 8, [["changeSizeBy:", 10], ["doRepeat", 10, [["changeSizeBy:", -1]]]]]]]],
+			"costumes": [{
+					"costumeName": "bucketgong",
+					"baseLayerID": 9,
+					"baseLayerMD5": "46c2bc848433eba36e4522d29a8bae23.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 100,
+					"rotationCenterY": 300
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 106,
+			"scratchY": 57,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 7,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "space",
+			"scripts": [[47, 59, [["whenKeyPressed", "space"], ["broadcast:", "space"]]],
+				[39,
+					135,
+					[["whenIReceive", "space"],
+						["setGraphicEffect:to:", "color", 75],
+						["playSound:", ""],
+						["setGraphicEffect:to:", "color", 0]]]],
+			"sounds": [{
+					"soundName": "Waterphone Bow 02",
+					"soundID": 2,
+					"md5": "cd6cb954b485dfa1705bc8872bd69648.wav",
+					"sampleCount": 609984,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 10,
+					"baseLayerMD5": "38af889830127a1eebbb56cf972c2271.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 84,
+					"rotationCenterY": 38
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 245,
+			"scratchY": -141,
+			"scale": 1.0000000002328306,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 6,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "right arrow",
+			"scripts": [[47, 59, [["whenKeyPressed", "right arrow"], ["broadcast:", "right"]]],
+				[44,
+					142,
+					[["whenIReceive", "right"],
+						["setGraphicEffect:to:", "color", 75],
+						["playSound:", ""],
+						["setGraphicEffect:to:", "color", 0]]]],
+			"sounds": [{
+					"soundName": "Waterphone Soft Mallet 02",
+					"soundID": 3,
+					"md5": "2a516154908bc9d16096879954a7c813.wav",
+					"sampleCount": 73728,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 11,
+					"baseLayerMD5": "4b15a41adef910e1d0fc6d060cb2234a.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": -62,
+					"rotationCenterY": 80
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 55,
+			"scratchY": -135,
+			"scale": 0.6944444444444445,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 9,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "down",
+			"scripts": [[45, 46, [["whenKeyPressed", "down arrow"], ["broadcast:", "down"]]],
+				[45,
+					129,
+					[["whenIReceive", "down"],
+						["setGraphicEffect:to:", "color", 75],
+						["playSound:", ""],
+						["setGraphicEffect:to:", "color", 0]]]],
+			"sounds": [{
+					"soundName": "Waterphone Mallet Slow 02",
+					"soundID": 4,
+					"md5": "938cfed5429c40063ad43027f3c9b747.wav",
+					"sampleCount": 177408,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 12,
+					"baseLayerMD5": "fd8dd52cc0e12321cc669282babc882f.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": -70,
+					"rotationCenterY": 88
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -49,
+			"scratchY": -135,
+			"scale": 0.6944444444444445,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 3,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "left arrow",
+			"scripts": [[34, 79, [["whenKeyPressed", "left arrow"], ["broadcast:", "left"]]],
+				[37,
+					158,
+					[["whenIReceive", "left"],
+						["setGraphicEffect:to:", "color", 75],
+						["playSound:", ""],
+						["setGraphicEffect:to:", "color", 0]]]],
+			"sounds": [{
+					"soundName": "Waterphone Hard Mallet 03",
+					"soundID": 5,
+					"md5": "64264098566696a1efc87194dd1cbac5.wav",
+					"sampleCount": 217728,
+					"rate": 22050,
+					"format": "adpcm"
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 13,
+					"baseLayerMD5": "1a91c450d4a3ac06a3a6aeaafbf32554.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": -62,
+					"rotationCenterY": 80
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -151,
+			"scratchY": -138,
+			"scale": 0.6944444444444445,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 5,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "triangle",
+			"scripts": [[31,
+					29,
+					[["whenKeyPressed", "up arrow"],
+						["doRepeat", 40, [["changeSizeBy:", 10], ["doRepeat", 10, [["changeSizeBy:", -1]]]]]]]],
+			"costumes": [{
+					"costumeName": "boathouseriver",
+					"baseLayerID": 14,
+					"baseLayerMD5": "d3acea0b47ee980eec8fcd21cca06fbe.png",
+					"bitmapResolution": 2,
+					"rotationCenterX": 100,
+					"rotationCenterY": 300
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -193,
+			"scratchY": 63,
+			"scale": 1.0400000002328305,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"platform": "Mac OS",
+		"os-version": "1068",
+		"swfVersion": "v424",
+		"language": "en",
+		"spriteCount": 13,
+		"comment": "Play drums with arrow keys and space, or use a MaKey MaKey kit to make drums out of anything!",
+		"flashVersion": "MAC 15,0,0,152",
+		"isHosting": true,
+		"author": "ericr",
+		"videoOn": false,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/37.0.2062.122 Safari\/537.36",
+		"projectID": "27096070",
+		"scriptCount": 17,
+		"scratch-version": "1.4 of 30-Jun-09",
+		"hasCloudData": false,
+		"history": "2012-8-12 12:18:32\tsave\tMaKey MaKey Drums\t\t\r2012-8-12 12:22:28\tsave\tMaKey MaKey Drums\t\t\r2012-8-12 12:31:53\tsave\tMaKey MaKey Drums\t\t\r2012-8-12 12:59:29\tsave\tMaKey MaKey Drums\t\t\r2012-8-12 13:03:20\tsave\tMaKey MaKey Drums\t\t\r2012-8-12 22:29:16\tsave\tMaKey MaKey Drums v2\t\t\r2012-8-12 22:30:39\tsave\tMaKey MaKey Drums v2\t\t\r2012-8-12 22:31:48\tsave\tMaKey MaKey Drums v2\t\t\r2012-8-12 23:37:30\tsave\tMaKey MaKey Drums v2\t\t\r2012-8-13 15:23:48\tsave\tMaKey MaKey Drums v3\t\t\r2012-8-13 15:29:19\tsave\tMaKey MaKey Drums v3\t\t\r2012-8-13 15:30:05\tsave\tMaKey MaKey Drums v3\t\t\r2012-8-13 15:44:39\tsave\tMaKey MaKey Drums v3\t\t\r2012-8-13 15:45:23\tshare\tMaKey MaKey Drum Machine\tericr\t\r2012-8-13 16:12:37\tsave\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:24:02\tsave\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:24:11\tshare\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:25:28\tsave\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:25:33\tshare\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:26:02\tsave\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:26:15\tsave\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:26:19\tshare\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:42:20\tsave\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:42:29\tsave\tMaKey MaKey Drum Machine\tericr\tericr\r2012-8-13 16:42:34\tshare\tMaKey MaKey Drum Machine\tericr\tericr\r"
+	}
+}
